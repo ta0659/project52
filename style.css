@@ -1,0 +1,93 @@
+h1{
+    color:rgb(201, 6, 6);
+    margin-left: 600px;
+}
+
+.header{
+    background-color:#000;
+    display:flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #c5c5c5;
+}
+
+.body{
+    text-size-adjust: 30px ;
+    background-color:#FFF;
+    display:flex;
+    justify-content: space-around;
+}
+
+.bodyImage{
+    color: rgb(238, 198, 145);
+    font-size: 20px;
+    font-weight: 300;
+    font-style:oblique;
+}
+
+.bodyImage{
+    background-color:#000;
+    display:flex;
+    justify-content: space-around;
+}
+
+a:link{
+    color: #fff;
+}
+
+a:visited{
+    color: rgb(15, 1, 1);
+}
+
+.menu{
+    margin-right: 50px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.grid img{
+    border: 2px solid #000;
+    border-radius: 50px;
+    justify-content: space-around;
+    margin-left: 5px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #000;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item{
+    border-radius: 20px;
+    background-color: #fff;
+    width: 310px;
+    font-family: fantasy;
+    position: relative;
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
